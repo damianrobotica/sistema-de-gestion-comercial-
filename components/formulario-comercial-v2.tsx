@@ -221,7 +221,7 @@ export function FormularioComercialV2() {
           }
         >
           <FileText className="w-4 h-4" />
-          Ver tutorial
+          Ver Video tutorial
         </Button>
       </div>
       <div className="max-w-4xl mx-auto space-y-4">
