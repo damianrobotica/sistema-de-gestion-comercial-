@@ -1,5 +1,7 @@
 "use client"
 
+import type React from "react"
+
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
@@ -210,6 +212,18 @@ export function FormularioComercialV2() {
 
   return (
     <div className="min-h-screen bg-gray-50/50 p-4 md:p-8">
+      <div className="max-w-4xl mx-auto mb-4">
+        <Button
+          variant="outline"
+          className="ml-auto flex items-center gap-2"
+          onClick={() =>
+            window.open("https://drive.google.com/file/d/1l9GiCWOGOzestqscNseaD4n_Qi6vlFmP/view", "_blank")
+          }
+        >
+          <FileText className="w-4 h-4" />
+          Ver tutorial
+        </Button>
+      </div>
       <div className="max-w-4xl mx-auto space-y-4">
         <div className="bg-blue-500 text-white p-4 rounded-lg text-center">
           <h2 className="text-sm font-medium tracking-wide uppercase">Pre Inscripción Comercial</h2>
